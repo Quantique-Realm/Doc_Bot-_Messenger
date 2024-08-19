@@ -8,8 +8,8 @@ import tempfile
 app = Flask(__name__)
 
 # Your Twilio Account SID and Auth Token
-account_sid = 'AC583621bfd450238efcfe5f9a4c58cbc0'
-auth_token = 'c15db168650c1fe39b7c651dc87b73ef'
+account_sid = ''
+auth_token = ''
 
 # In-memory storage to track user sessions and last contract
 user_sessions = {}
